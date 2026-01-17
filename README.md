@@ -43,10 +43,14 @@ source venv/bin/activate  # On macOS/Linux
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -e .
 ```
 
-4. Launch Jupyter:
+4. **(Optional)** Install Ruff VS Code extension for auto-formatting:
+   - Install "Ruff" by Astral from VS Code extensions
+   - Code will auto-format on save following project style guidelines
+
+5. Launch Jupyter:
 ```bash
 jupyter notebook
 ```
